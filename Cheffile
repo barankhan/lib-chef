@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+# cookbook 'chef-client'
+
+ cookbook 'apache2', '>= 1.0.0'
+ cookbook 'php'
+ cookbook 'mysql'
+# cookbook 'my-first-cookbook'
+#   :git => 'https://github.com/barankhan/chef-repo.git'	
+
+# cookbook 'my-first-cookbook',
+#   :git => 'https://github.com/barankhan/chef-repo.git'
+
+# cookbook 'postgresql',
+#   :git => 'https://github.com/findsyou/cookbooks',
+#   :ref => 'postgresql-improvements'
